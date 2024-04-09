@@ -1,0 +1,184 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fixed-header {
+    position: sticky;
+    top: 0; /* Position at the top of the page */
+    left: 0; /* Position at the left of the page (optional) */
+    width: 100%; /* Make it span the entire width */
+    /* Set background color (optional) */
+    z-index: 10; /* Ensure the header stays above other elements */
+  }
+  
+  h1{
+    margin: 0;
+    padding: 10px 0;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+
+
+  }
+  
+  
+  
+  h2{
+    margin: 0;
+    padding: 10px 0;
+    font-family:'Times New Roman', Times, serif;
+    color: #fcf82c;
+    font-size: 30px;
+  }
+   h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(129, 14, 129);
+    font-size: 25px;
+   
+  }
+
+  .des{
+    color: rgb(6, 58, 59); 
+    font-size: 22px; 
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .pdf{
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: #5c0668;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+    border-style: double;
+    border-width: 10px;
+    border-color: aliceblue;
+    
+   
+   
+  }
+
+  .bio{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #9fc0bd;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 20px;
+   
+  }
+  
+  .skills ul {
+    padding-left: 50px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  
+  li {
+    list-style-type:none;;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    color:aliceblue;
+    font-size: 22px;
+    
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-item {
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  
+  .project-item img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .resume a {
+    color: gold;
+    text-decoration: none;
+    border: 1px bold black;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color:gold;
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .abo{
+    font-size:  25px; 
+    color: rgb(88, 216, 255);
+    padding-left: 300px;
+    padding-right: 50px;
+  }
+  
+  .container {
+    
+    width: 100%;
+    align-content: center;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 5px;
+  }
+
+  
